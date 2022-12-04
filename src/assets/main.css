@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto+Condensed&family=Zen+Dots&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background: #0e0216;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: #fff;
+}
+
+header {
+  background: #6c13a4;
+  margin-bottom: 1rem;
+}
+
+.task-container {
+  max-width: 600px;
+  border-radius: 7px;
+  background: #999;
+  padding: 1rem;
+  margin: 15px auto;
+}
+
+.completed-filter {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: .2rem;
+}
+
+
+
+label {
+  font-size: 25px;
+  padding: .5rem;
+}
+
+.form-container {
+  width: 100%;
+  padding: .5rem;
+  margin: 5px auto;
+  margin-bottom: .5rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.completed-filter button {
+  border: none;
+  background: transparent;
+  margin-left: .5rem;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.completed-filter button:focus {
+  border-bottom: 2px solid #42b883;
+
+}
+
+.btn {
+  margin-left: .5rem;
+  font-size: 17px;
+  padding: 3px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #42b883;
+  background: #fff;
+  font-size: 20px;
+}
+
+input {
+  font-size: 22px;
+  background: #fff;
+  border-radius: 7px;
+  border: none;
+}
+
+input:focus {
+  border: #42b883;
+}
+
+.task {
+  display: flex;
+  padding: .5rem;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 10px 5px 5px black;
+  margin-bottom: .8rem;
+  background: #777;
+  cursor: pointer;
+}
