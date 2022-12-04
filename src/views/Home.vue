@@ -54,7 +54,6 @@ import TaskDetails from '../components/TaskDetails.vue'
   }
 </script>
 
-<style scoped>
-
+<style >
 
 </style>
